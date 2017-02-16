@@ -1,4 +1,10 @@
-# betsol-ng-intl-tel-input changelog
+# mm-intl-tel-input changelog
+
+## Version 1.4.0
+(16 Feb 2017)
+- Fork into mm-intl-tel-input library
+- update intl-tel-input deps to v11.0.1
+- update angular deps to v1.5.7
 
 ## Version 1.3.0
 (16 Apr 2016)

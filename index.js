@@ -1,2 +1,2 @@
-require('./dist/scripts/betsol-ng-intl-tel-input');
-module.exports = 'betsol.intlTelInput';
+require('./dist/scripts/mm-intl-tel-input');
+module.exports = 'mm.intlTelInput';

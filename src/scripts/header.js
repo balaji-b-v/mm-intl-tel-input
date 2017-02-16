@@ -4,5 +4,5 @@
  * @link <%= pkg.homepage %>
  * @license <%= pkg.license %>
  *
- * @author Slava Fomin II <s.fomin@betsol.ru>
+ * @author Balaji Venkatesh <balaji_b_v@rediffmail.com>
  */

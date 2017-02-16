@@ -1,10 +1,10 @@
 /**
- * betsol-ng-intl-tel-input - intl-tel-input integration for Angular.js
+ * mm-ng-intl-tel-input - intl-tel-input integration for Angular.js
  * @version v1.3.2
- * @link https://github.com/betsol/ng-intl-tel-input
+ * @link https://github.com/balaji-b-v/mm-intl-tel-input
  * @license MIT
  *
- * @author Slava Fomin II <s.fomin@betsol.ru>
+ * @author Balaji Venkatesh <balaji_b_v@rediffmail.com>
  */
 (function (angular) {
 
@@ -12,7 +12,7 @@
 
   var VALIDATOR_NAME = 'phoneNumber';
 
-  angular.module('betsol.intlTelInput', [])
+  angular.module('mm.intlTelInput', [])
 
     .constant('intlTelInputOptions', {})
 

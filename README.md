@@ -1,11 +1,11 @@
-# betsol-ng-intl-tel-input
+# mm-intl-tel-input
 
-[![npm version](https://badge.fury.io/js/betsol-ng-intl-tel-input.svg)](http://badge.fury.io/js/betsol-ng-intl-tel-input)
-[![Bower version](https://badge.fury.io/bo/betsol-ng-intl-tel-input.svg)](http://badge.fury.io/bo/betsol-ng-intl-tel-input)
+[![npm version](https://badge.fury.io/js/mm-intl-tel-input.svg)](http://badge.fury.io/js/mm-intl-tel-input)
+[![Bower version](https://badge.fury.io/bo/mm-intl-tel-input.svg)](http://badge.fury.io/bo/mm-intl-tel-input)
 
 
 This module for Angular.js (`^1.2.29`) provides integration
-for the great [intl-tel-input][intl-tel-input] jQuery plugin (version 7-8 are supported).
+for the great [intl-tel-input][intl-tel-input] jQuery plugin (version 11 is supported).
 
 Please feel free to investigate [the original plugin][intl-tel-input]
 for mode details, [features][intl-tel-input-features] and
@@ -18,9 +18,9 @@ for mode details, [features][intl-tel-input-features] and
 
 ### Install integration library with `npm` or `Bower`
 
-- `npm i --save betsol-ng-intl-tel-input`
+- `npm i --save mm-intl-tel-input`
 
-- `bower install --save betsol-ng-intl-tel-input`
+- `bower install --save mm-intl-tel-input`
 
 
 ### Add integration library to your page
@@ -29,10 +29,10 @@ Make sure, that module is added to your page either as a part of automatically b
 or manually using the code like this:
 
 ``` html
-<script src="../betsol-ng-intl-tel-input/dist/betsol-ng-intl-tel-input.js"></script>
+<script src="../mm-intl-tel-input/dist/mm-intl-tel-input.js"></script>
 ```
 
-You should use minified version (`betsol-ng-intl-tel-input.min.js`) in production.
+You should use minified version (`mm-intl-tel-input.min.js`) in production.
 
 
 ### Add dependency in your application's module definition
@@ -40,7 +40,7 @@ You should use minified version (`betsol-ng-intl-tel-input.min.js`) in productio
 ``` javascript
 var application = angular.module('application', [
   // ...
-  'betsol.intlTelInput'
+  'mm.intlTelInput'
 ]);
 ```
 
@@ -72,7 +72,7 @@ All configuration options could be found in the [original plugin documentation][
 
 ```javascript
 angular
-  .module('app', ['betsol.intlTelInput'])
+  .module('app', ['mm.intlTelInput'])
   .config(function (intlTelInputOptions) {
     angular.extend(intlTelInputOptions, {
       nationalMode: false,
@@ -111,7 +111,7 @@ that will be populated with the directive's API functions.
 
 ```javascript
 angular
-  .module('app', ['betsol.intlTelInput'])
+  .module('app', ['mm.intlTelInput'])
   .controller('MyCtrl', function ($scope) {
     $scope.myIntlTelInputCtrl;
     $scope.changeCountryToRussia = function () {
@@ -204,7 +204,7 @@ Thank you!
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Slava Fomin II, BETTER SOLUTIONS
+Copyright (c) 2017 Balaji Venkatesh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -226,13 +226,13 @@ THE SOFTWARE.
 
   [changelog]: CHANGELOG.md
   [so-ask]:    http://stackoverflow.com/questions/ask?tags=angularjs,javascript
-  [email]:     mailto:s.fomin@betsol.ru
-  [new-issue]: https://github.com/betsol/ng-intl-tel-input/issues/new
+  [email]:     mailto:balaji_b_v@rediffmail.com
+  [new-issue]: https://github.com/balaji-b-v/mm-intl-tel-input/issues
   [gulp]:      http://gulpjs.com/
-  [repo-gh]:   https://github.com/betsol/ng-intl-tel-input
+  [repo-gh]:   https://github.com/balaji-b-v/mm-intl-tel-input
 
   [intl-tel-input]:          https://github.com/jackocnr/intl-tel-input
   [intl-tel-input-features]: https://github.com/jackocnr/intl-tel-input#features
   [intl-tel-input-options]:  https://github.com/jackocnr/intl-tel-input#options
   [intl-tel-input-install]:  https://github.com/jackocnr/intl-tel-input#getting-started
-  [demo]:                    http://betsol.github.io/ng-intl-tel-input/
+  [demo]:                    http://balaji-b-v.github.io/mm-intl-tel-input/
