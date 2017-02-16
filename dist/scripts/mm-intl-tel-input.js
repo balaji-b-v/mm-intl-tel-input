@@ -1,6 +1,6 @@
 /**
  * mm-ng-intl-tel-input - intl-tel-input integration for Angular.js
- * @version v1.3.2
+ * @version v1.4.0
  * @link https://github.com/balaji-b-v/mm-intl-tel-input
  * @license MIT
  *
