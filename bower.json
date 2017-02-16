@@ -13,7 +13,7 @@
   ],
   "dependencies": {
     "angular": "^1.5.7",
-    "intl-tel-input": "11.0.1"
+    "intl-tel-input": "^11.0.1"
   },
   "repository": {
     "type": "git",
