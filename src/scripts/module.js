@@ -188,7 +188,7 @@
 
 
   function log (message) {
-    console.log('ng-intl-tel-input: ' + message);
+    console.log('mm-intl-tel-input: ' + message);
   }
 
 })(angular);

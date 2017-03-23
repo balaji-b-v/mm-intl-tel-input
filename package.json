@@ -1,13 +1,13 @@
 {
   "name": "mm-intl-tel-input",
   "description": "intl-tel-input integration for Angular.js",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "homepage": "https://github.com/balaji-b-v/mm-intl-tel-input",
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
     "angular": "^1.5.7",
-    "intl-tel-input": "^11.0.1"
+    "intl-tel-input": "^11.0.8"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.7",
