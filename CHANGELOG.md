@@ -1,5 +1,9 @@
 # mm-intl-tel-input changelog
 
+## Version 1.4.1
+(23 Mar 2017)
+- update intl-tel-input deps to v11.0.8
+
 ## Version 1.4.0
 (16 Feb 2017)
 - Fork into mm-intl-tel-input library
