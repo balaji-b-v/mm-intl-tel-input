@@ -11,7 +11,6 @@ Please feel free to investigate [the original plugin][intl-tel-input]
 for mode details, [features][intl-tel-input-features] and
 [configuration][intl-tel-input-options].
 
-> —» [DEMO][demo] «—
 
 
 ## Installation
